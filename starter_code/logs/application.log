@@ -1,0 +1,24 @@
+2023-06-27 12:09:39,164 [main] INFO  com.example.demo.SareetaApplication - Starting SareetaApplication on CPP00185111B with PID 8204 (D:\Udacity Learning\Project4\nd035-c4-Security-and-DevOps\starter_code\target\classes started by NhatCP in D:\Udacity Learning\Project4\nd035-c4-Security-and-DevOps\starter_code)
+2023-06-27 12:09:39,169 [main] INFO  com.example.demo.SareetaApplication - No active profile set, falling back to default profiles: default
+2023-06-27 12:09:39,530 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-27 12:09:39,570 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 4 JPA repository interfaces.
+2023-06-27 12:09:39,967 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-06-27 12:09:39,972 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-27 12:09:39,973 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-27 12:09:39,973 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-06-27 12:09:40,046 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-27 12:09:40,046 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 847 ms
+2023-06-27 12:09:40,150 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-27 12:09:40,187 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.18.Final
+2023-06-27 12:09:40,271 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-06-27 12:09:40,331 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-06-27 12:09:40,445 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-06-27 12:09:40,456 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-06-27 12:09:40,924 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-27 12:09:40,929 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-27 12:09:41,136 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-27 12:09:41,406 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@acea29e, org.springframework.security.web.context.SecurityContextPersistenceFilter@21046afa, org.springframework.security.web.header.HeaderWriterFilter@3aa63b53, org.springframework.web.filter.CorsFilter@772bc4c9, org.springframework.security.web.authentication.logout.LogoutFilter@1cda75be, com.example.demo.security.JWTAuthenticationFilter@152dbf8e, com.example.demo.security.JWTAuthenticationVerficationFilter@34ea86ff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ac53209, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@792eeae6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4bcf08ae, org.springframework.security.web.session.SessionManagementFilter@177302d6, org.springframework.security.web.access.ExceptionTranslationFilter@548f4f60, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@20e9c165]
+2023-06-27 12:09:41,435 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-27 12:09:41,500 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-27 12:09:41,532 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-27 12:09:41,537 [main] INFO  com.example.demo.SareetaApplication - Started SareetaApplication in 2.623 seconds (JVM running for 3.198)
